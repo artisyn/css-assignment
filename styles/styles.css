@@ -1,0 +1,231 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+/* header styles */
+
+header {
+	background-color: #1f2937;
+	min-height: 15rem;
+	color: #f9faf8;
+	padding-bottom: 7rem;
+}
+nav {
+	margin-bottom: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 15% 1rem 15%;
+}
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+.nav-right {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	color: #e5e7eb;
+	gap: 1rem;
+}
+.nav-right > a {
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+.nav-right > a:hover {
+	color: #6e747c;
+}
+
+.banner {
+	display: flex;
+	gap: 3%;
+	padding: 1rem 15% 1rem 15%;
+}
+.banner-left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0.7rem;
+}
+.banner-left > h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+.banner-left > p {
+	font-size: 18px;
+	color: #e5e7eb;
+	letter-spacing: 0.07rem;
+}
+.btn-signup {
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 0.5rem;
+	width: 9rem;
+	padding: 0.5rem;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+.btn-signup:hover {
+	color: #3882f6;
+	background-color: #f9faf8;
+}
+.banner-right {
+	flex: 1;
+	background-color: #6e747c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+}
+/* info-blocks section styles */
+
+.info-blocks {
+	margin: 2rem 0 4rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	padding: 2rem 15%;
+}
+.info-blocks > h2 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+.info-blocks--wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8%;
+}
+.info-block {
+	width: 11rem;
+}
+.info-frame {
+	height: 11rem;
+	width: 11rem;
+	border: 4px solid #3882f6;
+	border-radius: 0.8rem;
+}
+.info-block > p {
+	margin-top: 0.5rem;
+	text-align: center;
+	font-size: 18px;
+	color: #6e747c;
+	font-weight: 500;
+}
+/* quote-section styles */
+
+.quote-section {
+	background-color: #e5e7eb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10rem;
+}
+.quote-section > figure {
+	width: 55vw;
+}
+.quote-section > figure > blockquote {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1f2937;
+	letter-spacing: 0.04rem;
+}
+.quote-section > figure > figcaption {
+	text-align: right;
+	font-weight: 900;
+	font-size: 24px;
+}
+/* action-section styles */
+.action-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8rem 0;
+}
+.action-items--wrapper {
+	width: 70vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 0.5rem;
+	height: 10rem;
+	padding: 0 8%;
+}
+
+.action-block--left {
+	width: 70%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.action-block--left > h2 {
+	font-size: 24px;
+	font-weight: 600;
+	border: 1px solid black;
+	text-align: left;
+	letter-spacing: 0.05rem;
+}
+.action-block--left > p {
+	font-size: 18px;
+	color: #e5e7eb;
+	letter-spacing: 0.05rem;
+}
+.action-block--right {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.btn-action {
+	background-color: #3882f6;
+	color: #f9faf8;
+	border: 2px solid #f9faf8;
+	border-radius: 0.5rem;
+	width: 9rem;
+	padding: 0.5rem;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+.btn-action:hover {
+	color: #3882f6;
+	background-color: #f9faf8;
+}
+/* footer styles */
+footer {
+	background-color: #1f2937;
+	min-height: 5rem;
+	display: grid;
+	place-content: center;
+}
+.copyright {
+	color: #f9faf8;
+	font-size: 20px;
+}
